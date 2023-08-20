@@ -107,7 +107,7 @@ dfx canister call open_verse mint '(vec {137; 80; 78; 71; 13; 10; 26; 10; 0; 0; 
 2. List the item into mapOfListings:
 
 ```
-dfx canister call open_verse listItem '(principal "<REPLACE WITH NFT CANISTER ID>", 2)'
+dfx canister call open_verse listItem '(principal "su63m-yyaaa-aaaaa-aaala-cai", 2)'
 ```
 
 3. Get Open Verse canister ID:
@@ -119,7 +119,7 @@ dfx canister id open_verse
 4. Transfer NFT to Open Verse:
 
 ```
-dfx canister call <REPLACE WITH NFT CANISTER ID> transferOwnership '(principal "<REPLACE WITH OPEN VERSE CANISTER ID>", true)'
+dfx canister call su63m-yyaaa-aaaaa-aaala-cai transferOwnership '(principal "rrkah-fqaaa-aaaaa-aaaaq-cai", true)'
 ```
 
 # Conneting to the Token Canister
